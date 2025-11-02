@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tortas da Lena</title>
+    <!-- Importando fontes elegantes do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif; /* Fonte elegante para textos */
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f5f5dc 0%, #ffffff 100%); /* Gradiente bege-branco sofisticado */
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: rgba(255, 255, 255, 0.9); /* Fundo semi-transparente para elegância */
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-family: 'Playfair Display', serif; /* Fonte serif elegante para título */
+            font-size: 3em;
+            margin: 0;
+            color: #8b4513; /* Tom marrom sofisticado */
+        }
+        header p {
+            font-size: 1.2em;
+            color: #666;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+        .product-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s; /* Efeito hover elegante */
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .product-card h3 {
+            font-family: 'Playfair Display', serif;
+            color: #8b4513;
+        }
+        .product-card p {
+            font-size: 1em;
+        }
+        .price {
+            font-weight: bold;
+            color: #d2691e; /* Laranja sofisticado */
+        }
+        button {
+            background-color: #8b4513;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Lato', sans-serif;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #a0522d;
+        }
+        .contact {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .contact h2 {
+            font-family: 'Playfair Display', serif;
+            color: #8b4513;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f5f5dc;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tortas da Lena</h1>
+        <p>Sua primeira tradição universitária! 🪶</p>
+    </header>
+
+    <div class="container">
+        <section class="products">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200?text=Torta+de+Limão" alt="Torta de Limão"> <!-- Placeholder para foto; substitua por uma real -->
+                <h3>Torta de Limão</h3>
+                <p>Refrescante e cítrica, perfeita para um lanche leve.</p>
+                <p class="price">R$ 4,00</p>
+                <button onclick="window.open('https://www.instagram.com/tortas_5estrelas/', '_blank')">Pedir Agora</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200?text=Torta+de+Frango+com+Requeijão" alt="Torta de Frango com Requeijão"> <!-- Placeholder para foto; substitua por uma real -->
+                <h3>Torta de Frango com Requeijão</h3>
+                <p>Saborosa combinação de frango suculento e requeijão cremoso.</p>
+                <p class="price">R$ 4,00</p>
+                <button onclick="window.open('https://www.instagram.com/tortas_5estrelas/', '_blank')">Pedir Agora</button>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contato e Pedidos</h2>
+            <p>Entrega gratuita na faculdade. Pagamentos aceitos: Pix ou dinheiro.</p>
+            <p>Mande uma mensagem no Instagram: <a href="https://www.instagram.com/tortas_5estrelas/" target="_blank">@tortas_5estrelas</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <!-- Removido o texto de direitos autorais -->
+    </footer>
+</body>
+</html>
